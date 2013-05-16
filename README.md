@@ -556,7 +556,7 @@ By now we've used jquery to manipulate the DOM, and used ruby to render some pre
 
 We can send asyncronous requests from javascript to our server, and then manipulate our page with any data we get back. Asyncronous means that we don't have to wait for the request to finish and we don't have to refresh the page. A text message is asyncronous communication, you can send one and forget about the conversation until you get one back. Calling someone on a phone is syncronous communication since you can't go anywhere untill the call is over and you hang up the phone.
 
-What type of functionality might we want to make asyncronous? There are plenty of 'upvote' and 'like' buttons on the Internet these days, while we aren't recording votes, our products do have a price. We could add a button that would allow us to update the button's price. 
+What type of functionality might we want to make asyncronous? There are plenty of 'upvote' and 'like' buttons on the Internet these days, while we aren't recording votes, our products do have a price. We could add a button that would allow us to update the product's price. 
 
 First we'll build this functionality in normal synchronous way using page refreshes and links. We'll then re-build it asyncronously using javascript.
 
